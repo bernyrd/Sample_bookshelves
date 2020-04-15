@@ -1,42 +1,55 @@
+  <BasicDropdown as |dd|>
+  <dd.Trigger class="trigger-bootstrap-feel">Genre<span class="caret"></span></dd.Trigger>
+  <dd.Content class="content-bootstrap-feel">
+    <a href="#">All</a><br/>
+    <a href="#">Action</a><br/>
+    <a href="#">Comedy</a><br/>
+    <a href="#">Fantasy</a><br/>
+    <a href="#">Horror</a><br/>
+    <a href="#">Love Story</a><br/>
+    <a href="#">Sci-fi</a><br/>
+    <a href="#">Suspense</a><br/>
+    <a href="#">Thriller</a>
+  </dd.Content>
+</BasicDropdown>
+
+{{input type='text' class='search' placeholder='Search' value=search action='queryPost'}}
+<input type="submit" value="Search"{{action 'pressed'}} >
+
 <div class="content">
     <div class="section">
-        <div class="background-image"></div>
             <div class="cards">
-                <img src="assets/images/percy.jpeg">
+                <img src="assets/images/percy.jpeg" >
             </div>
 
-            <p>Percy Jackson and the Olympians: The Lightning Thief</p>
+           <p>Percy Jackson and the Olympians: The Lightning Thief</p>
 
         <div class="description">
             <h3> Twelve-year-old Percy Jackson is on the most dangerous quest of his life. With the help of a satyr and a daughter of Athena, Percy must journey across the united States to catch a thief who has stolen the original weapon of mass destruction - Zues's master bolt. Along the way, he must face a host of mythological enemies determined to stop him. Most of all, he must come to terms with a father he has never known, and an Oracle that has warned him of betrayal by a friend.</h3>
-        </div>
-       
+        </div>    
+        <input type="submit" value="Add story"{{action 'pressed'}} >
     </div>
 
     <div class="section">
          <div class="cards">
              <img src="assets/images/book2.jpg">
         </div>
-
         <p>Percy Jackson and the Olympians: The Sea of Monters</p>
-
         <div class="description">
             <h3> When Thalia's tree is mysteriously poisoned, the magical borders of Camp half-Blood begin to fail. Now PErcy and his Friends have just days to find the only magic item powerful to save the camp before it is overrun by monsters. The catch: they must sail into the Sea of Monsters to find it. Along the way, Percy must stage a daring rescue operation to save his old friend Grover, and he learns a terrible secret about his  own family, which makes him question whether being the son of Poseidon is an honor or a curse.</h3>
         </div>
-
+        <input type="submit" value="Add story"{{action 'pressed'}} >
     </div>
 
     <div class="section">
          <div class="cards">
              <img src="assets/images/book3.jpg">
         </div>
-
         <p>Percy Jackson and the Olympians: The Titan's Curse</p>
-
         <div class="description">
             <h3> When Percy jackson gets an urgent distress call from his friend Grover, he immediately prepares for battle. He knows he will need his powerful demigod allies at his side, his trusty bronze sword Riptide, and ... a ride from his mom. The demigods rush to the rescue to find that Grover has made an important discovery: two powerful half-bloods whose parentage is unknown. But thats's not all that awaits them. The titan lord Kronos has devised his most treacherous plot yet, and the young heroes have just fallen prey. They're not the only ones in danger. An ancient monster has arisen - one rumored to be so powerful it could destroy Olympus - and Artemis, the only goddess who might know how to tract it, is missing. Now Percy and his friends, along with the Hunters of Artemis, have only a week to find the kidnapped goddess and solve the mystery of the monster she was hunting. Along the way, they must face their most dangerous challenge yet: the chilling prophecy of the titan's curse</h3>
         </div>
-
+        <input type="submit" value="Add story"{{action 'pressed'}} >
     </div>
 
 </div>

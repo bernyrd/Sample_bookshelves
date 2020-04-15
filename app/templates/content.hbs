@@ -1,3 +1,21 @@
+<BasicDropdown as |dd|>
+  <dd.Trigger class="trigger-bootstrap-feel">Genre<span class="caret"></span></dd.Trigger>
+  <dd.Content class="content-bootstrap-feel">
+    <a href="#">All</a><br/>
+    <a href="#">Action</a><br/>
+    <a href="#">Comedy</a><br/>
+    <a href="#">Fantasy</a><br/>
+    <a href="#">Horror</a><br/>
+    <a href="#">Love Story</a><br/>
+    <a href="#">Sci-fi</a><br/>
+    <a href="#">Suspense</a><br/>
+    <a href="#">Thriller</a>
+  </dd.Content>
+</BasicDropdown>
+
+{{input type='text' class='search' placeholder='Search' value=search action='queryPost'}}
+<input type="submit" value="Search"{{action 'pressed'}} >
+
 <div class="content">
     <div class="section">
         <div class="background-image"></div>
@@ -10,7 +28,7 @@
         <div class="description">
             <h3> Twelve-year-old Percy Jackson is on the most dangerous quest of his life. With the help of a satyr and a daughter of Athena, Percy must journey across the united States to catch a thief who has stolen the original weapon of mass destruction - Zues's master bolt. Along the way, he must face a host of mythological enemies determined to stop him. Most of all, he must come to terms with a father he has never known, and an Oracle that has warned him of betrayal by a friend.</h3>
         </div>
-       
+        <input type="button" value="Remove story"{{action 'pressed'}} >
     </div>
 
 
