@@ -9,8 +9,8 @@ export default class LoginboxComponent extends Component {
 
     @action
     createBook(){
-        alert('You successfully login ' + this.name)
-        alert('The site is under maintenance. Please click "Click me" to contine. Thankyou')
+        alert('Mahal na mahal ko si ' + this.name)
+        alert('Wag ka ng magalit. Pag nabasa mo to sabihin mo Iloveyou bebe')
     }
 
     @action
