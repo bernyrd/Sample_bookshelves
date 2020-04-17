@@ -1,14 +1,7 @@
-<div class="loginbox">
-		<img src="assets/images/avatar1.png" class="avatar">
-			<h1>Login Here</h1>
-			<form>
-				<h3>Username</h3>
-				{{input type="text" placeholder="Enter Username" value=username required="true"}}
-				<h3>Password</h3>
-				<input type="password" placeholder="Enter Password" >
-				<input type="submit" value="Login"{{action 'pressed'}} >
-			</form>
-	</div>
-		
+
+<div class="content-container">
+	{{loginbox}}
+</div>	
+{{footer}}
 
 {{outlet}}

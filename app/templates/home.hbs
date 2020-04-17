@@ -1,4 +1,7 @@
-  <BasicDropdown as |dd|>
+{{header}}
+
+<div class="content">
+    <BasicDropdown as |dd|>
   <dd.Trigger class="trigger-bootstrap-feel">Genre<span class="caret"></span></dd.Trigger>
   <dd.Content class="content-bootstrap-feel">
     <a href="#">All</a><br/>
@@ -16,7 +19,6 @@
 {{input type='text' class='search' placeholder='Search' value=search action='queryPost'}}
 <input type="submit" value="Search"{{action 'pressed'}} >
 
-<div class="content">
     <div class="section">
             <div class="cards">
                 <img src="assets/images/percy.jpeg" >
@@ -53,5 +55,7 @@
     </div>
 
 </div>
+
+{{footer}}
 
 {{outlet}}

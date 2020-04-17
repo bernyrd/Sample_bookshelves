@@ -1,0 +1,16 @@
+
+	<div class="loginbox">
+		<img src="assets/images/avatar1.png" class="avatar">
+			<h1>Login Here</h1>
+			<form>
+				<h3>Username</h3>
+				<input type="text" placeholder="Enter Password" value={{name}} {{on "change" this.updateUser}}>
+				<h3>Password</h3>
+				<input type="password" placeholder="Enter Password" value={{pass}}>
+				<a href="home"><input type="submit" {{action 'createBook'}} ></a>
+			</form>
+	</div>
+
+	<div class="button">
+	<a href="firstpage"><button class="btn btn-primary" type="submit" >Click me</button></a>
+	</div>

@@ -3,13 +3,16 @@ import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 export default class LoginRoute extends Route {
-    @tracked username;
+    @tracked value;
 
     @action
-        pressed(){
+    createBook(){
+        alert(this.value)
+    }
+    
+    @action
+    updateTitle(event){
+        this.value = event.target.value;
+    }
 
-            var username = this.get('username');
-            alert('You login successfully ' + username);
-
-        }
 }
