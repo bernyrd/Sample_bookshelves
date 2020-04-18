@@ -1,0 +1,17 @@
+<BasicDropdown as |dd|>
+  <dd.Trigger class="trigger-bootstrap-feel">Genre<span class="caret"></span></dd.Trigger>
+  <dd.Content class="content-bootstrap-feel">
+    <a href="home">All</a><br/>
+    <a href="bang">Action</a><br/>
+    <a href="comedy">Comedy</a><br/>
+    <a href="fantasy">Fantasy</a><br/>
+    <a href="horror">Horror</a><br/>
+    <a href="love">Love Story</a><br/>
+    <a href="sci-fi">Sci-fi</a><br/>
+    <a href="suspense">Suspense</a><br/>
+    <a href="thriller">Thriller</a>
+  </dd.Content>
+</BasicDropdown>
+
+{{input type='text' class='search' placeholder='Search' value=search action='queryPost'}}
+<input type="submit" value="Search"{{action 'pressed'}} >

@@ -14,4 +14,14 @@ Router.map(function() {
   this.route('home');
   this.route('shelves');
   this.route('firstpage');
+  this.route('bang');
+  this.route('comedy');
+  this.route('fantasy');
+  this.route('horro');
+  this.route('horror');
+  this.route('love');
+  this.route('sci-fi');
+  this.route('suspense');
+  this.route('thriller');
+  this.route('publish');
 });

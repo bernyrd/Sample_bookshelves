@@ -1,0 +1,18 @@
+<div class="content-publish">
+    <div class="section-title">
+        <input type="text" placeholder="Enter Title" value={{name}} {{on "change" this.updateUser}}>
+    </div>
+    <div class="section-synopsis">
+        {{textarea name="synopsis" rows="10" cols="57" placeholder="Enter Synopsis" value=synopsis}}
+    </div>
+    <div class="section-story">
+        {{textarea name="story" rows="10" cols="57" placeholder="Enter Story" value=story}}
+    </div>
+
+    <a href="home"><input type="submit" value="publish"{{action 'publish'}} ></a>
+
+</div>
+
+
+
+{{yield}}
